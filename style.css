@@ -4,15 +4,70 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background: linear-gradient(135deg, #A8CABA, #5D4157); 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 400px; 
+}
+
+#generate-btn {
+    padding: 18px 35px;
+    font-size: 20px;
+    background-color: #6C5B7B; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#generate-btn:hover {
+    background-color: #554A63;
+    transform: translateY(-3px); 
 }
 
 #color-display {
-    width: 200px;
-    height: 100px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px;
+    margin: 40px auto;
+    border: 3px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#color-display:active {
+    transform: scale(1.05);
+}
+
+#color-code {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+#copy-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #355C7D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#copy-btn:hover {
+    background-color: #2A4B67;
+    transform: translateY(-3px);
 }
