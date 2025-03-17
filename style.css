@@ -71,3 +71,11 @@ body {
     background-color: #5A77B5;
     transform: translateY(-5px);
 }
+
+#color-format {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
