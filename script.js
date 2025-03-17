@@ -55,11 +55,11 @@ function generateRandomColor() {
             }
     }
 
-    colorDisplay.style.opacity = 0; // جعل العرض شفافًا
+    colorDisplay.style.opacity = 0;
     setTimeout(() => {
         colorDisplay.style.backgroundColor = color;
-        colorDisplay.style.opacity = 1; // جعل العرض مرئيًا مرة أخرى
-    }, 300); // تأخير قصير قبل تغيير اللون
+        colorDisplay.style.opacity = 1;
+    }, 300);
     colorCode.value = color;
 }
 
@@ -130,3 +130,11 @@ function hslToRgb(h, s, l) {
 
 generateBtn.addEventListener('click', generateRandomColor);
 copyBtn.addEventListener('click', copyColorCode);
+
+colorDisplay.addEventListener('touchstart', () => {
+    colorDisplay.style.transform = 'scale(1.05)';
+});
+
+colorDisplay.addEventListener('touchend', () => {
+    colorDisplay.style.transform = 'scale(1)';
+});
