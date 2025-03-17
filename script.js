@@ -55,7 +55,11 @@ function generateRandomColor() {
             }
     }
 
-    colorDisplay.style.backgroundColor = color;
+    colorDisplay.style.opacity = 0; // جعل العرض شفافًا
+    setTimeout(() => {
+        colorDisplay.style.backgroundColor = color;
+        colorDisplay.style.opacity = 1; // جعل العرض مرئيًا مرة أخرى
+    }, 300); // تأخير قصير قبل تغيير اللون
     colorCode.value = color;
 }
 
