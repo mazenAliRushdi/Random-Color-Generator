@@ -4,70 +4,70 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #A8CABA, #5D4157); 
-    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #E0C2FF, #8C65A1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    width: 400px; 
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    width: 450px;
 }
 
 #generate-btn {
-    padding: 18px 35px;
-    font-size: 20px;
-    background-color: #6C5B7B; 
+    padding: 20px 40px;
+    font-size: 22px;
+    background-color: #A06CD5;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #generate-btn:hover {
-    background-color: #554A63;
-    transform: translateY(-3px); 
+    background-color: #8A5BB5;
+    transform: translateY(-5px);
 }
 
 #color-display {
-    width: 300px;
-    height: 200px;
-    margin: 40px auto;
-    border: 3px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 250px;
+    margin: 50px auto;
+    border: 4px solid #E0E0E0;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
 #color-display:active {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 #color-code {
-    padding: 12px;
-    font-size: 18px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    width: 250px;
-    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid #D1D1D1;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 40px;
 }
 
 #copy-btn {
-    padding: 12px 25px;
-    font-size: 18px;
-    background-color: #355C7D;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #6A89CC;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #copy-btn:hover {
-    background-color: #2A4B67;
-    transform: translateY(-3px);
+    background-color: #5A77B5;
+    transform: translateY(-5px);
 }
